@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+.main-container {
+  margin-bottom: 20px;
+}
+.headernav {
+  margin: 10px 10px;
+}
+
+.headernav header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 49px;
+  height: 51px;
+}
+.navtext .bigf {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+}
+.navtext .smallf {
+  font-size: 11px;
+  font-weight: 300;
+}
+
+header .links a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+  font-weight: 24px;
+}
+
+.bg-green {
+  background: linear-gradient(
+    90deg,
+    rgba(7, 74, 74, 0.88) 0%,
+    rgba(27, 44, 44, 0.88) 100%
+  );
+
+  height: 220px;
+  position: relative;
+}
+
+.bgwrapper {
+  position: absolute;
+  margin-left: 170px;
+  width: 100%;
+  height: 100%;
+}
+.bgwrapper .bgcontent {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 20px;
+}
+.bgcontent .bgtext .bigf {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #fff;
+}
+.bgcontent .bgtext .smallf {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 40px;
+  padding: 60px 0;
+}
+.leftwrapper {
+  max-width: 520px;
+}
+
+.leftwrapper .bigf {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+}
+
+.leftwrapper .smallf {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.rightwrapper {
+  width: 520px;
+}
+
+.rightwrapper .field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.field label {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+.field input {
+  height: 36px;
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  border: 1px solid #0000001a;
+}
+
+.field .smallf {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+.button button {
+  background-color: #000000;
+  height: 40px;
+  color: #fff;
+  width: 240px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  width: 100%;
+  height: 80px;
+}
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}
